@@ -34,6 +34,6 @@ export const ZkSyncTestnet: Chain = {
     decimals: 18,
   },
   blockExplorerUrl: 'https://goerli.explorer.zksync.io',
-  getExplorerAddressLink: getAddressLink(https://goerli.explorer.zksync.io),
-  getExplorerTransactionLink: getTransactionLink(https://goerli.explorer.zksync.io),
+  getExplorerAddressLink: getAddressLink('https://goerli.explorer.zksync.io'),
+  getExplorerTransactionLink: getTransactionLink('https://goerli.explorer.zksync.io'),
 }
