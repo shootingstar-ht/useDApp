@@ -22,18 +22,18 @@ export const ZkSync: Chain = {
 
 export const ZkSyncTestnet: Chain = {
   chainId: 280,
-  chainName: 'zkSync testnet',
+  chainName: 'zkSync Era Testnet',
   isTestChain: true,
   isLocalChain: false,
   multicallAddress: '0x5014a961801de9a52548068bDac853CE337221e7',
   multicall2Address: '0x32Caf123F6f574035f51532E597125062C0Aa8EE',
-  rpcUrl: 'https://zksync2-testnet.zksync.dev',
+  rpcUrl: 'https://testnet.era.zksync.dev',
   nativeCurrency: {
     name: 'ETH',
     symbol: 'ETH',
     decimals: 18,
   },
-  blockExplorerUrl: zksyncExplorerUrl,
-  getExplorerAddressLink: getAddressLink(zksyncExplorerUrl),
-  getExplorerTransactionLink: getTransactionLink(zksyncExplorerUrl),
+  blockExplorerUrl: 'https://goerli.explorer.zksync.io',
+  getExplorerAddressLink: getAddressLink(https://goerli.explorer.zksync.io),
+  getExplorerTransactionLink: getTransactionLink(https://goerli.explorer.zksync.io),
 }
